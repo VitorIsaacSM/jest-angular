@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        justify-content: space-between;
+    
+        button {
+            max-width: 200px;
+            padding: 50px;
+            background-color: white;
+            color: blue;
+            border: 2px solid black;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    
+        button:hover {
+            background-color: rgba(110, 107, 107, 0.651);
+        }
+    }
+}

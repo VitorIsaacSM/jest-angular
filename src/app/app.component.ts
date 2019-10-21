@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-jest';
+
+  isBotaoTresActive = false;
+
+  print(string: string) {
+    console.log(string);
+  }
+
+  toggleActive() {
+    this.isBotaoTresActive = !this.isBotaoTresActive;
+  }
 }
